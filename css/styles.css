@@ -1,0 +1,190 @@
+
+body {
+  margin: 0;
+  line-height: 2;
+}
+
+
+@media (max-width: 576px) {
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+/* Navbar start */
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav {
+  padding-right: 12.5rem;
+}
+
+.nav-item {
+  font-size: 1.875rem;
+  padding: 0 0.3125rem;
+
+}
+
+.nav-item > a {
+  color: black;
+}
+
+.nav-item > a:hover {
+  color: rgb(215,176,41);
+}
+
+
+/* Navbar End*/
+
+
+/* Section 1 */
+.hero {
+  background-image: url("https://source.unsplash.com/1920x1080/?corporate,meeting");
+  margin-top: 7.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  height: 67.5rem;
+  z-index: 1;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.opaque-bg-thing {
+  height: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  background: linear-gradient(to bottom right, rgba(215,176,41,0) 0%, rgba(215,176,41,0) 50%, rgba(215,176,41,0.8) 50%, rgba(215,176,41,0.8) 100%);;
+}
+
+.hero-text {
+  padding-left: 6.25rem;
+  margin-top: 37.5rem;
+}
+
+.hero-text > h1 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.hero-text > p {
+  font-weight: 400;
+  font-size: 2.125rem;
+}
+
+/* Section 1 end*/
+
+
+/* Section 2 Start */
+.section-2 {
+  padding-left: 0;
+  padding-right: 0;
+  height: 67.5rem;
+}
+
+
+.section-2-col {
+  margin-top: 7.5rem;
+  text-align: center;
+}
+
+
+.section-2-col > img {
+  padding-top: 4.6875rem;
+  margin: 0 auto;
+}
+
+
+.section-2-text > h2 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.second-one > .section-2-text {
+  padding-top: 3.9675rem;
+}
+
+.section-2-text > p {
+  font-weight: 400;
+  font-size: 2.125rem;
+}
+
+
+.line {
+  margin-top: 7.5rem;
+  border-left: 6px solid black;
+  height: 37.5rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+/* Section 2 end */
+
+
+/* section-3 start*/
+.section-3 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.carousel-thing {
+  background-color: #f8f4f4;
+  margin-left: 4.125rem;
+  margin-bottom: 4.125rem;
+}
+
+.section-3-text {
+  width: 50%;
+  padding: 4.125rem;
+  text-align: right;
+}
+
+.section-3-text > h2 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.section-3-text > p {
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+
+.orange-image-thing-1 {
+  background-color: rgb(215,176,41);
+  border-radius: 64.5px 64.5px 0  0;
+}
+
+.col-sm-11.orange-image-thing {
+  height: 8rem;
+  background-color: rgb(215,176,41);
+  border-radius: 0 64.5px 64.5px 0;
+}
+
+.col-sm-1.orange-image-thing {
+  height: 8rem;
+  background-color: rgb(215,176,41);
+  border-radius: 0 0 0 64.5px;
+}
+
+.card {
+  height: 25rem;
+}
+
+
+
+/* section-3 end*/
+
+/* footer start*/
+.footer {
+  margin-top: 4.125rem;
+  height: 27rem;
+  background-color: #082c74;
+}
+/* footer end*/
