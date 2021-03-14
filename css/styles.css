@@ -5,8 +5,8 @@ body {
 }
 
 
-@media (max-width: 576px) {
-  .col-sm-6 {
+@media screen and (max-width: 576px) {
+  .col-md-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -14,6 +14,11 @@ body {
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .nav-item {
+    text-align: center;
+  }
+}
 
 /* Navbar start */
 .navbar {
@@ -22,6 +27,7 @@ body {
 
 .navbar-nav {
   padding-right: 12.5rem;
+  margin-left: auto;
 }
 
 .nav-item {
@@ -63,7 +69,7 @@ body {
 }
 
 .hero-text {
-  padding-left: 6.25rem;
+  padding: 2.5rem;
   margin-top: 37.5rem;
 }
 
@@ -140,6 +146,7 @@ body {
 }
 
 .section-3-text {
+  margin-left: auto;
   width: 50%;
   padding: 4.125rem;
   text-align: right;
@@ -161,13 +168,13 @@ body {
   border-radius: 64.5px 64.5px 0  0;
 }
 
-.col-sm-11.orange-image-thing {
+.col-md-11.orange-image-thing {
   height: 8rem;
   background-color: rgb(215,176,41);
   border-radius: 0 64.5px 64.5px 0;
 }
 
-.col-sm-1.orange-image-thing {
+.col-md-1.orange-image-thing {
   height: 8rem;
   background-color: rgb(215,176,41);
   border-radius: 0 0 0 64.5px;
